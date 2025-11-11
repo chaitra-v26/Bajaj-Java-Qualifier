@@ -1,13 +1,27 @@
-# Ignore build output
+# Maven build
 target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Ignore jar files
-*.jar
-
-# Ignore IDE/project files
+# Eclipse / IntelliJ
+.classpath
+.project
+.settings/
 .idea/
 *.iml
 
-# Ignore OS-generated files
+# Build results
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
